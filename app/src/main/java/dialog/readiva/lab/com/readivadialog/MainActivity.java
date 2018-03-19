@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
                 ReadivaDialog.dialog()
                         .setLayout(R.layout.custom_layout).setOkButtonId(R.id.idOkButton)
-                        .setCanceble(true)
                         .show(MainActivity.this);
 
             }
